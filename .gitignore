@@ -1,9 +1,17 @@
-# Private datasets – never upload friends' photos
+
+# Private face datasets
 data/
 datasets/
-*.zip
 
-# Python virtual environment
+# Private face recognition data and models
+models/face_database.pkl
+models/keras_model.h5
+models/labels.txt
+
+# Temporary webcam images
+current_frame.jpg
+
+# Python environments
 .venv/
 venv/
 
@@ -11,12 +19,14 @@ venv/
 __pycache__/
 *.py[cod]
 
-# Environment variables
+# Secrets
 .env
+.env.*
 
-# IDE
+# IDE and system files
 .vscode/
-
-# System files
 .DS_Store
 Thumbs.db
+
+# Archives
+*.zip
