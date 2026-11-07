@@ -1,10 +1,15 @@
-# Python
-__pycache__/
-*.py[cod]
+# Private datasets – never upload friends' photos
+data/
+datasets/
+*.zip
 
-# Virtual environment
+# Python virtual environment
 .venv/
 venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
 
 # Environment variables
 .env
